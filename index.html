@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Livro Duna</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="hero">
+        <h1>
+            <img class="hero__logo" src="./dist/images/Dunaescrito.jpg" alt="Duna">
+        </h1>
+    </section>
+
+    <section class="about">
+        <div>
+            <h2 class="about__title">
+                Bem vindo a Duna!
+            </h2>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p class="about__title__content">
+                A humanidade abandonou a Terra e se espalhou pelo universo, formando um Império Galáctico dividido entre Grandes Casas Nobres de aristocratas. O Duque Leto Atreides, governante do planeta Caladan, é designado pelo Imperador Padixá Shaddam IV para substituir o Barão Vladimir Harkonnen como o governante do feudo de Arrakis, um planeta desértico e inóspito e única fonte de uma droga conhecida como "a Especiaria", uma preciosa substância psicotrópica que prolonga a vida e saúde humanas, além de conceder habilidades mentais. A Especiaria é utilizada pelos Navegadores da Guilda Espacial para que estes possam guiar naves estelares para atravessar o espaço instantaneamente e com segurança; sem a Especiaria a viagem interestelar é impossível, o que a torna a substância mais valiosa de todo o universo.
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/Arrakis_planeta.png" alt="Arrakis">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Arrakis</h2>
+            <p class="text--big">
+                A superfície de Arrakis consistia basicamente em desertos e dunas, daí o nome alternativo do planeta, Duna. Várias cadeias de montanhas desgastadas se estendiam pelo planeta, dividindo os desertos e abrigando as formas de vida limitadas do planeta. Formações rochosas também cobriam a superfície do planeta. <br>
+
+A atmosfera era formada por níveis de oxigênio e nitrogênio compatíveis o suficiente para permitir que um humano vivesse no planeta sem a necessidade de aparelhos respiratórios. O método de produção de oxigênio atmosférico suficiente para sustentar a vida biológica limitada se dava por meio do metabolismo do verme da areia, que atua como uma fábrica de produção de oxigênio.    
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/osfremen.jpg" alt="Fremen">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Os Fremen e a Luta pela Sobrevivência.</h2>
+            <p class="text--big">
+                A luta pela sobrevivência neste mundo hostil há muito dominava a identidade cultural dos fremen. O ambiente brutal de Arrakis exigia o uso excessivo de energia e recursos, especialmente água. Além disso, sua história com perseguição cultural exigia a necessidade de conhecimento de combate. Esses dois aspectos os viram emergir como guerreiros eficientes e resistentes, que usaram suas habilidades e o ambiente de Arrakis para afastar oponentes de outros mundos que frequentemente possuíam tecnologia muito superior e treinamento formal.
+            </p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs shows__text">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                Chani Kynes
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                No deserto
+            </button>
+            <button data-tab-button="star_plus" class="shows__tabs__button">
+                Verme de areia
+            </button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/fremen.jpg" alt="Fremen">
+                <p>Chani Kynes, também conhecida como Sihaya pelos íntimos, foi a concubina Fremen do imperador Paul Atreides, e mãe de seus 2 filhos: Ghanima Atreides e Leto Atreides II, o Imperador-Deus. 
+                    <br>Era filha do planetólogo do Imperium Liet Kynes e de uma mãe Fremen.</p>
+            </li>
+        </ul>
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/correndoduna.jpeg" alt="Correndo">
+                <p>Os Fremen há muito descobriram maneiras de andar sem atrair os vermes da areia e, no deserto aberto, eles caminham de maneira irregular que imita o deslocamento natural das rochas e da areia, para se misturar ao ambiente.</p>
+            </li>
+        </ul>
+        <ul data-tab-id="star_plus" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/ganchoverme.jpg" alt="Verme">
+                <p>Um verme da areia era uma forma de vida nativa de Arrakis. Costumavam viver nos vastos desertos e dunas de areia que se estendiam na superfície do planeta. Os vermes da areia eram essenciais na produção do Mélange.
+
+                    Os vermes da areia viviam sob a areia e eram atraídos por batidas rítmicas ocorridas na superfície. <br>
+                    Quando ocorriam essas batidas, eles podiam cruzar o deserto em busca dela. <br>
+                    Eram altamente protetores, e defendiam o seu território a todo o custo. <br>
+                    Por isso, ver um verme e viver para falar sobre isso era algo extremamente raro, exceto para os Fremen, que haviam adquirido algum tipo de domínio sobre a besta.</p>
+            </li>
+        </ul>
+
+
+
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@use 'variaveis';
+
+.about {
+    padding: 5.6vw;
+
+    &__title{
+        text-align: center;
+        color: variaveis.$corTextoPrimario;
+        padding: 24px; 
+    }
+
+    &__title__content{
+        color: variaveis.$corTextoSecundario;
+    }
+
+
+}
