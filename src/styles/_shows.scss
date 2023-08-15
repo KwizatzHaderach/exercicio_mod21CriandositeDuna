@@ -23,9 +23,11 @@
         &__item{
             display: flex;
             justify-content: center;
+            padding-bottom: 60px;
             img{
                 max-width: 600px;
                 border-radius: 4px;
+                
             }
             p {
                 color: variaveis.$corTextoSecundario;
@@ -45,7 +47,7 @@
         }
 
         &__button {
-            color: $corTextoPrimario;
+            color: variaveis.$corTextoPrimario;
             font-size: 20px;
             border: none;
             padding-bottom: 5px;
